@@ -8,10 +8,11 @@ Algoritmo sin_titulo
 		compra= x * descuento
 		pago = x - compra
 		Escribir " descuento aplicado"
-		Escribir pago
+		Escribir"total a pagar" pago
 	SiNo
 		descuento=0
 		Escribir "no aplica"
+		Escribir "total a pagar"  x
 	Fin Si
 	 
 FinAlgoritmo
